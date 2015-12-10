@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6D11071C16660100E7ED75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D11061C16660100E7ED75 /* AppDelegate.swift */; };
+		7A6D11091C16660100E7ED75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D11081C16660100E7ED75 /* ViewController.swift */; };
+		7A6D110C1C16660100E7ED75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D110A1C16660100E7ED75 /* Main.storyboard */; };
+		7A6D110E1C16660100E7ED75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D110D1C16660100E7ED75 /* Assets.xcassets */; };
+		7A6D11111C16660100E7ED75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D110F1C16660100E7ED75 /* LaunchScreen.storyboard */; };
+		7A6D111C1C16660100E7ED75 /* adobeCreativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D111B1C16660100E7ED75 /* adobeCreativeUITests.swift */; };
+		7A6D11271C1669CE00E7ED75 /* AdobeCreativeSDKCoreResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D11261C1669CE00E7ED75 /* AdobeCreativeSDKCoreResources.bundle */; };
+		7A6D11291C166ACF00E7ED75 /* AdobeCreativeSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11281C166ACF00E7ED75 /* AdobeCreativeSDKCore.framework */; };
+		7A6D112B1C166B4300E7ED75 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D112A1C166B4300E7ED75 /* libc++.tbd */; };
+		7A6D112D1C166B5600E7ED75 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D112C1C166B5600E7ED75 /* libz.tbd */; };
+		7A6D112F1C166B6400E7ED75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D112E1C166B6400E7ED75 /* MobileCoreServices.framework */; };
+		7A6D11311C166B6900E7ED75 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11301C166B6900E7ED75 /* SystemConfiguration.framework */; };
+		7A6D11341C1675E000E7ED75 /* AdobeCreativeSDKImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D11331C1675E000E7ED75 /* AdobeCreativeSDKImageResources.bundle */; };
+		7A6D11361C1675E800E7ED75 /* AdobeCreativeSDKImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11351C1675E800E7ED75 /* AdobeCreativeSDKImage.framework */; };
+		7A6D11381C16761100E7ED75 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11371C16761100E7ED75 /* Accelerate.framework */; };
+		7A6D113A1C16761A00E7ED75 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11391C16761A00E7ED75 /* CoreData.framework */; };
+		7A6D113C1C16762200E7ED75 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D113B1C16762200E7ED75 /* libsqlite3.0.tbd */; };
+		7A6D113E1C16762B00E7ED75 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D113D1C16762B00E7ED75 /* libz.1.2.5.tbd */; };
+		7A6D11401C16763100E7ED75 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D113F1C16763100E7ED75 /* MessageUI.framework */; };
+		7A6D11421C16763900E7ED75 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11411C16763900E7ED75 /* OpenGLES.framework */; };
+		7A6D11441C16764300E7ED75 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11431C16764300E7ED75 /* QuartzCore.framework */; };
+		7A6D11461C16765F00E7ED75 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6D11451C16765F00E7ED75 /* StoreKit.framework */; };
+		7A6D11481C16773B00E7ED75 /* aiko_photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D11471C16773B00E7ED75 /* aiko_photo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A6D11181C16660100E7ED75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A6D10FB1C16660100E7ED75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A6D11021C16660100E7ED75;
+			remoteInfo = adobeCreative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A6D11031C16660100E7ED75 /* adobeCreative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adobeCreative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6D11061C16660100E7ED75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A6D11081C16660100E7ED75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A6D110B1C16660100E7ED75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A6D110D1C16660100E7ED75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A6D11101C16660100E7ED75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A6D11121C16660100E7ED75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6D11171C16660100E7ED75 /* adobeCreativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adobeCreativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A6D111B1C16660100E7ED75 /* adobeCreativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adobeCreativeUITests.swift; sourceTree = "<group>"; };
+		7A6D111D1C16660100E7ED75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6D11261C1669CE00E7ED75 /* AdobeCreativeSDKCoreResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdobeCreativeSDKCoreResources.bundle; path = "../../../../AdobeCreativeSDKFrameworks 5/AdobeCreativeSDKCore.framework/Versions/A/Resources/AdobeCreativeSDKCoreResources.bundle"; sourceTree = "<group>"; };
+		7A6D11281C166ACF00E7ED75 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		7A6D112A1C166B4300E7ED75 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7A6D112C1C166B5600E7ED75 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7A6D112E1C166B6400E7ED75 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7A6D11301C166B6900E7ED75 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7A6D11321C166C9800E7ED75 /* AdobeCreative-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AdobeCreative-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A6D11331C1675E000E7ED75 /* AdobeCreativeSDKImageResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdobeCreativeSDKImageResources.bundle; sourceTree = "<group>"; };
+		7A6D11351C1675E800E7ED75 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		7A6D11371C16761100E7ED75 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		7A6D11391C16761A00E7ED75 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7A6D113B1C16762200E7ED75 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7A6D113D1C16762B00E7ED75 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		7A6D113F1C16763100E7ED75 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7A6D11411C16763900E7ED75 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		7A6D11431C16764300E7ED75 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A6D11451C16765F00E7ED75 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7A6D11471C16773B00E7ED75 /* aiko_photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aiko_photo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A6D11001C16660100E7ED75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6D11461C16765F00E7ED75 /* StoreKit.framework in Frameworks */,
+				7A6D11441C16764300E7ED75 /* QuartzCore.framework in Frameworks */,
+				7A6D11421C16763900E7ED75 /* OpenGLES.framework in Frameworks */,
+				7A6D11401C16763100E7ED75 /* MessageUI.framework in Frameworks */,
+				7A6D113E1C16762B00E7ED75 /* libz.1.2.5.tbd in Frameworks */,
+				7A6D113C1C16762200E7ED75 /* libsqlite3.0.tbd in Frameworks */,
+				7A6D113A1C16761A00E7ED75 /* CoreData.framework in Frameworks */,
+				7A6D11381C16761100E7ED75 /* Accelerate.framework in Frameworks */,
+				7A6D11311C166B6900E7ED75 /* SystemConfiguration.framework in Frameworks */,
+				7A6D112F1C166B6400E7ED75 /* MobileCoreServices.framework in Frameworks */,
+				7A6D112D1C166B5600E7ED75 /* libz.tbd in Frameworks */,
+				7A6D112B1C166B4300E7ED75 /* libc++.tbd in Frameworks */,
+				7A6D11361C1675E800E7ED75 /* AdobeCreativeSDKImage.framework in Frameworks */,
+				7A6D11291C166ACF00E7ED75 /* AdobeCreativeSDKCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6D11141C16660100E7ED75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A6D10FA1C16660100E7ED75 = {
+			isa = PBXGroup;
+			children = (
+				7A6D11051C16660100E7ED75 /* adobeCreative */,
+				7A6D111A1C16660100E7ED75 /* adobeCreativeUITests */,
+				7A6D11041C16660100E7ED75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A6D11041C16660100E7ED75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A6D11031C16660100E7ED75 /* adobeCreative.app */,
+				7A6D11171C16660100E7ED75 /* adobeCreativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A6D11051C16660100E7ED75 /* adobeCreative */ = {
+			isa = PBXGroup;
+			children = (
+				7A9818081C1A42D300DF73BD /* lib */,
+				7A6D11471C16773B00E7ED75 /* aiko_photo.jpg */,
+				7A6D11061C16660100E7ED75 /* AppDelegate.swift */,
+				7A6D11081C16660100E7ED75 /* ViewController.swift */,
+				7A6D110A1C16660100E7ED75 /* Main.storyboard */,
+				7A6D110D1C16660100E7ED75 /* Assets.xcassets */,
+				7A6D110F1C16660100E7ED75 /* LaunchScreen.storyboard */,
+				7A6D11121C16660100E7ED75 /* Info.plist */,
+				7A6D11321C166C9800E7ED75 /* AdobeCreative-Bridging-Header.h */,
+			);
+			path = adobeCreative;
+			sourceTree = "<group>";
+		};
+		7A6D111A1C16660100E7ED75 /* adobeCreativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A6D111B1C16660100E7ED75 /* adobeCreativeUITests.swift */,
+				7A6D111D1C16660100E7ED75 /* Info.plist */,
+			);
+			path = adobeCreativeUITests;
+			sourceTree = "<group>";
+		};
+		7A9818081C1A42D300DF73BD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7A6D11351C1675E800E7ED75 /* AdobeCreativeSDKImage.framework */,
+				7A6D11331C1675E000E7ED75 /* AdobeCreativeSDKImageResources.bundle */,
+				7A6D11281C166ACF00E7ED75 /* AdobeCreativeSDKCore.framework */,
+				7A6D11261C1669CE00E7ED75 /* AdobeCreativeSDKCoreResources.bundle */,
+				7A6D11451C16765F00E7ED75 /* StoreKit.framework */,
+				7A6D11431C16764300E7ED75 /* QuartzCore.framework */,
+				7A6D11411C16763900E7ED75 /* OpenGLES.framework */,
+				7A6D113F1C16763100E7ED75 /* MessageUI.framework */,
+				7A6D113D1C16762B00E7ED75 /* libz.1.2.5.tbd */,
+				7A6D113B1C16762200E7ED75 /* libsqlite3.0.tbd */,
+				7A6D11391C16761A00E7ED75 /* CoreData.framework */,
+				7A6D11371C16761100E7ED75 /* Accelerate.framework */,
+				7A6D11301C166B6900E7ED75 /* SystemConfiguration.framework */,
+				7A6D112E1C166B6400E7ED75 /* MobileCoreServices.framework */,
+				7A6D112C1C166B5600E7ED75 /* libz.tbd */,
+				7A6D112A1C166B4300E7ED75 /* libc++.tbd */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A6D11021C16660100E7ED75 /* adobeCreative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6D11201C16660100E7ED75 /* Build configuration list for PBXNativeTarget "adobeCreative" */;
+			buildPhases = (
+				7A6D10FF1C16660100E7ED75 /* Sources */,
+				7A6D11001C16660100E7ED75 /* Frameworks */,
+				7A6D11011C16660100E7ED75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adobeCreative;
+			productName = adobeCreative;
+			productReference = 7A6D11031C16660100E7ED75 /* adobeCreative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A6D11161C16660100E7ED75 /* adobeCreativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A6D11231C16660100E7ED75 /* Build configuration list for PBXNativeTarget "adobeCreativeUITests" */;
+			buildPhases = (
+				7A6D11131C16660100E7ED75 /* Sources */,
+				7A6D11141C16660100E7ED75 /* Frameworks */,
+				7A6D11151C16660100E7ED75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A6D11191C16660100E7ED75 /* PBXTargetDependency */,
+			);
+			name = adobeCreativeUITests;
+			productName = adobeCreativeUITests;
+			productReference = 7A6D11171C16660100E7ED75 /* adobeCreativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A6D10FB1C16660100E7ED75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yamasaki;
+				TargetAttributes = {
+					7A6D11021C16660100E7ED75 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					7A6D11161C16660100E7ED75 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 7A6D11021C16660100E7ED75;
+					};
+				};
+			};
+			buildConfigurationList = 7A6D10FE1C16660100E7ED75 /* Build configuration list for PBXProject "adobeCreative" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A6D10FA1C16660100E7ED75;
+			productRefGroup = 7A6D11041C16660100E7ED75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A6D11021C16660100E7ED75 /* adobeCreative */,
+				7A6D11161C16660100E7ED75 /* adobeCreativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A6D11011C16660100E7ED75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6D11481C16773B00E7ED75 /* aiko_photo.jpg in Resources */,
+				7A6D11271C1669CE00E7ED75 /* AdobeCreativeSDKCoreResources.bundle in Resources */,
+				7A6D11111C16660100E7ED75 /* LaunchScreen.storyboard in Resources */,
+				7A6D110E1C16660100E7ED75 /* Assets.xcassets in Resources */,
+				7A6D11341C1675E000E7ED75 /* AdobeCreativeSDKImageResources.bundle in Resources */,
+				7A6D110C1C16660100E7ED75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6D11151C16660100E7ED75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A6D10FF1C16660100E7ED75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6D11091C16660100E7ED75 /* ViewController.swift in Sources */,
+				7A6D11071C16660100E7ED75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A6D11131C16660100E7ED75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6D111C1C16660100E7ED75 /* adobeCreativeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A6D11191C16660100E7ED75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A6D11021C16660100E7ED75 /* adobeCreative */;
+			targetProxy = 7A6D11181C16660100E7ED75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A6D110A1C16660100E7ED75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6D110B1C16660100E7ED75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A6D110F1C16660100E7ED75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A6D11101C16660100E7ED75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A6D111E1C16660100E7ED75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A6D111F1C16660100E7ED75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A6D11211C16660100E7ED75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adobeCreative",
+				);
+				INFOPLIST_FILE = adobeCreative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yamasaki.adobeCreative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "adobeCreative/AdobeCreative-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		7A6D11221C16660100E7ED75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/adobeCreative",
+				);
+				INFOPLIST_FILE = adobeCreative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yamasaki.adobeCreative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "adobeCreative/AdobeCreative-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		7A6D11241C16660100E7ED75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adobeCreativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yamasaki.adobeCreativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adobeCreative;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A6D11251C16660100E7ED75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adobeCreativeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.yamasaki.adobeCreativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adobeCreative;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A6D10FE1C16660100E7ED75 /* Build configuration list for PBXProject "adobeCreative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6D111E1C16660100E7ED75 /* Debug */,
+				7A6D111F1C16660100E7ED75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6D11201C16660100E7ED75 /* Build configuration list for PBXNativeTarget "adobeCreative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6D11211C16660100E7ED75 /* Debug */,
+				7A6D11221C16660100E7ED75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A6D11231C16660100E7ED75 /* Build configuration list for PBXNativeTarget "adobeCreativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6D11241C16660100E7ED75 /* Debug */,
+				7A6D11251C16660100E7ED75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A6D10FB1C16660100E7ED75 /* Project object */;
+}
